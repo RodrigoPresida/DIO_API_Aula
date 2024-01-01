@@ -135,3 +135,4 @@ C:\Users\rodri\OneDrive\Documentos\DIO\DIO_API\obj\Debug\net8.0\refint\DIO_API.d
 C:\Users\rodri\OneDrive\Documentos\DIO\DIO_API\obj\Debug\net8.0\DIO_API.pdb
 C:\Users\rodri\OneDrive\Documentos\DIO\DIO_API\obj\Debug\net8.0\DIO_API.genruntimeconfig.cache
 C:\Users\rodri\OneDrive\Documentos\DIO\DIO_API\obj\Debug\net8.0\ref\DIO_API.dll
+C:\Users\rodri\OneDrive\Documentos\DIO\DIO_API\obj\Debug\net8.0\DIO_API.sourcelink.json
