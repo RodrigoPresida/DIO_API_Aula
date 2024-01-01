@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DIO_API.props" />
+</Project>
