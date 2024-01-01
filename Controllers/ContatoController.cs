@@ -52,6 +52,25 @@ namespace DIO_API.Controllers
             _context.SaveChanges();
             return Ok(contatoBanco);
         }
-        
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            var contato = _context.Contatos.Find(id);
+            if (contato == null)
+            {
+                return NotFound();
+            }
+            _context.Contatos.Remove(contato);
+            _context.SaveChanges();
+           return NoContent();
+        }
+        [HttpGet("OberPorNome/{nome}")]
+        public IActionResult ObterPorNome(string nome)
+        {
+            var contatos = _context.Contatos.Where(x => x.Nome.Contains(nome));
+            return Ok(contatos);
+        }
+       
+
     }
 }
